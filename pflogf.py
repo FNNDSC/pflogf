@@ -49,7 +49,7 @@ class FnndscLogFormatter(ColoredFormatter):
         if self._wide:
             record.hostname = _formatted_hostname
             record.filename = f'{record.filename}:{record.funcName}:{record.lineno}'
-            record.filename = f'{record.filename:>45}'
+            record.filename = f'{record.filename:>40}'
         else:
             record.hostname = ''
             record.filename = f'{record.filename}:{record.lineno}'
