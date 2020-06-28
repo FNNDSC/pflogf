@@ -1,6 +1,6 @@
 # pflogf
 
-[![PyPI version](https://badge.fury.io/py/pflogf.svg)](https://badge.fury.io/py/pflogf)
+[![PyPI version](https://badge.fury.io/py/pflogf.svg)](https://pypi.org/project/pflogf/)
 
 Colorful logging formatter for fnndsc/pf* family.
 Its hardcoded format displays displays time, hostname, and calling function.
