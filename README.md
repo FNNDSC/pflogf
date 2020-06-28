@@ -3,9 +3,21 @@
 [![PyPI version](https://badge.fury.io/py/pflogf.svg)](https://badge.fury.io/py/pflogf)
 
 Colorful logging formatter for fnndsc/pf* family.
+Its hardcoded format displays displays time, hostname, and calling function.
+The various logging levels (debug, info, warn, error, critical) are printed in different colors.
 
 pflogf aims to replace [pfmisc/debug.py](https://github.com/FNNDSC/pfmisc/blob/master/pfmisc/debug.py)
 using the standard Python [logging](https://docs.python.org/3/library/logging.html) module.
+
+## Screenshots
+
+The output is intended for full-screen TTY output.
+
+![full screen](docs/wide.png)
+
+It tries to detect when not enough colums are available to display full information.
+
+![half screen](docs/narrow.png)
 
 ## Examples
 
