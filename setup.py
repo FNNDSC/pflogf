@@ -6,7 +6,7 @@ with open(path.join(path.abspath(path.dirname(__file__)), 'README.md')) as f:
 
 setup(
     name='pflogf',
-    version='0.0.2rc2',
+    version='0.0.3',
     author='Jennings Zhang',
     author_email='Jennings.Zhang@childrens.harvard.edu',
     description='Logging formatter for fnndsc/pf* family, inspired by pfmisc.debug',

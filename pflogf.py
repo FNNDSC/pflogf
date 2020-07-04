@@ -48,7 +48,7 @@ class FnndscLogFormatter(ColoredFormatter):
         self._wide = get_terminal_size((_tty_min_columns, 1)).columns >= _tty_min_columns
         if self._wide:
             record.hostname = _formatted_hostname
-            record.filename = f'{record.filename}:{record.funcName}:{record.lineno}'
+            record.filename = f'({record.name}) {record.filename}:{record.funcName}:{record.lineno}'
             record.filename = f'{record.filename:>40}'
         else:
             record.hostname = ''
